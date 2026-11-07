@@ -1,6 +1,9 @@
 # SimpleMusic Rhythm
 
-A rhythm editor for beginners, from Awkward Snail. It is a sister app of
+A rhythm editor for beginners, from Awkward Snail. Try it in your browser:
+https://awkwardsnail.com.au/SimpleMusicRhythm/
+
+It is a sister app of
 [SimpleMusic](https://github.com/AwkwardSnail/SimpleMusic).
 
 - Write a rhythm freely on a single-line rhythm staff. You don't need to think about bars.
