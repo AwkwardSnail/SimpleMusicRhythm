@@ -14,7 +14,7 @@
     ProcessorArchitecture="$ARCH$" />
 
   <Properties>
-    <DisplayName>SimpleMusic Rhythm</DisplayName>
+    <DisplayName>Simple Music Rhythm</DisplayName>
     <PublisherDisplayName>$PUBLISHER_DISPLAY_NAME$</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
     <Description>Write a rhythm first, count the bars later: a simple rhythm editor with a metronome, for beginners.</Description>
@@ -31,7 +31,7 @@
   <Applications>
     <Application Id="SimpleMusicRhythm" Executable="SimpleMusicRhythm.exe" EntryPoint="Windows.FullTrustApplication">
       <uap:VisualElements
-        DisplayName="SimpleMusic Rhythm"
+        DisplayName="Simple Music Rhythm"
         Description="Write a rhythm first, count the bars later."
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
@@ -40,14 +40,14 @@
           Wide310x150Logo="Assets\Wide310x150Logo.png"
           Square71x71Logo="Assets\SmallTile.png"
           Square310x310Logo="Assets\LargeTile.png"
-          ShortName="SimpleMusic Rhythm" />
+          ShortName="Simple Music Rhythm" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#2F5BD3" />
       </uap:VisualElements>
       <Extensions>
         <!-- Double-clicking a .smrhythm file opens it in SimpleMusicRhythm. -->
         <uap:Extension Category="windows.fileTypeAssociation">
           <uap:FileTypeAssociation Name="simplemusicrhythmsheet">
-            <uap:DisplayName>SimpleMusic Rhythm sheet</uap:DisplayName>
+            <uap:DisplayName>Simple Music Rhythm sheet</uap:DisplayName>
             <uap:Logo>Assets\StoreLogo.png</uap:Logo>
             <uap:SupportedFileTypes>
               <uap:FileType>.smrhythm</uap:FileType>

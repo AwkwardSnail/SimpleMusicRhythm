@@ -69,7 +69,7 @@ public static class SheetStore
     /* ---------------------- Sheet files (.smrhythm) ---------------------- */
 
     public const string FileExtension = ".smrhythm";
-    public const string FileFilter = "SimpleMusic Rhythm sheet (*.smrhythm)|*.smrhythm";
+    public const string FileFilter = "Simple Music Rhythm sheet (*.smrhythm)|*.smrhythm";
     const int FormatVersion = 1;
 
     // What a .smrhythm file holds: a marker, a format version and the sheet.
@@ -86,11 +86,11 @@ public static class SheetStore
     {
         SheetFile? file;
         try { file = JsonSerializer.Deserialize<SheetFile>(File.ReadAllText(path), Options); }
-        catch (JsonException) { throw new InvalidDataException("This file isn't a SimpleMusic Rhythm sheet, or it is damaged."); }
+        catch (JsonException) { throw new InvalidDataException("This file isn't a Simple Music Rhythm sheet, or it is damaged."); }
         if (file?.App != "SimpleMusicRhythm" || file.Sheet == null)
-            throw new InvalidDataException("This file isn't a SimpleMusic Rhythm sheet.");
+            throw new InvalidDataException("This file isn't a Simple Music Rhythm sheet.");
         if (file.FormatVersion > FormatVersion)
-            throw new InvalidDataException("This sheet was made with a newer version of SimpleMusic Rhythm. Please update the app to open it.");
+            throw new InvalidDataException("This sheet was made with a newer version of Simple Music Rhythm. Please update the app to open it.");
         file.Sheet.Sanitize();
         return file.Sheet;
     }

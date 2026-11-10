@@ -1,4 +1,4 @@
-# Publishing SimpleMusic Rhythm to the Microsoft Store
+# Publishing Simple Music Rhythm to the Microsoft Store
 
 Everything needed to build the Store package is in this folder:
 
@@ -46,9 +46,9 @@ For updates, raise the version: `-Version 1.0.1.0` (the last number must stay 0)
 
 ### Draft listing text
 
-> **Feel the beat first, count the bars later.** SimpleMusic Rhythm is a rhythm editor for beginners.
+> **Feel the beat first, count the bars later.** Simple Music Rhythm is a rhythm editor for beginners.
 > Write a rhythm on a single line without worrying about bars, then choose a time signature and
-> SimpleMusic Rhythm divides it into bars, ties notes that cross a bar line and marks the strong
+> Simple Music Rhythm divides it into bars, ties notes that cross a bar line and marks the strong
 > first beat of every bar.
 >
 > - Whole to sixteenth notes, dotted notes and rests, with automatic beaming

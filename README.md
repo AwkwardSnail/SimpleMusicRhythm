@@ -1,10 +1,10 @@
-# SimpleMusic Rhythm
+# Simple Music Rhythm
 
 A rhythm editor for beginners, from Awkward Snail. It is a sister app of
-[SimpleMusic](https://github.com/AwkwardSnail/SimpleMusic).
+[Simple Music Melody](https://github.com/AwkwardSnail/SimpleMusic).
 
 - Write a rhythm freely on a single-line rhythm staff. You don't need to think about bars.
-- Choose a time signature. SimpleMusic Rhythm divides the rhythm into bars, ties notes that cross a bar line, and marks the strong first beat of each bar with an accent (>).
+- Choose a time signature. Simple Music Rhythm divides the rhythm into bars, ties notes that cross a bar line, and marks the strong first beat of each bar with an accent (>).
 - Use the metronome on its own in any time signature, or let it click along while the rhythm plays.
 
 The web version is in `web/`. It is a static site (`index.html`, `app.js`,
